@@ -1,0 +1,252 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.3.2",
+    "versionPublish": "5.5.8",
+    "name": "RocketShop",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": [],
+    "theme": {},
+    "imageResize": true,
+    "favicon": false,
+    "mbrsiteDomain": "1feawholf5",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 1,
+    "mcSmartCart": {
+      "currency": "USD",
+      "paymentSystem": "stripe",
+      "ACCOUNT_KEY": "acct_1KFLb7FP9vd73Y7G_wnz1QcrrydA2K2YY48jKKvKh6rw8KeuZFDbhaE5DYqs"
+    },
+    "google-analytics": "<script>\n  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error(\"Segment snippet included twice.\");else{analytics.invoked=!0;analytics.methods=[\"trackSubmit\",\"trackClick\",\"trackLink\",\"trackForm\",\"pageview\",\"identify\",\"reset\",\"group\",\"track\",\"ready\",\"alias\",\"debug\",\"page\",\"once\",\"off\",\"on\",\"addSourceMiddleware\",\"addIntegrationMiddleware\",\"setAnonymousId\",\"addDestinationMiddleware\"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement(\"script\");t.type=\"text/javascript\";t.async=!0;t.src=\"https://cdn.segment.com/analytics.js/v1/\" + key + \"/analytics.min.js\";var n=document.getElementsByTagName(\"script\")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey=\"cZ0w8DzhJdpYIhbIBdQYx3tNdC0nuebE\";;analytics.SNIPPET_VERSION=\"4.15.3\";\n  analytics.load(\"cZ0w8DzhJdpYIhbIBdQYx3tNdC0nuebE\");\n  analytics.page();\n  }}();\n</script>",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1131x1920.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white text-primary\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">RocketShop</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header1-3\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#pricing-table1-0\">PLANS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#pricing-table1-0\">PLANS</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts1-2\" data-toolbar=\"-mbrBtnMove\">LOG IN</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1200.jpeg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to RocketShop<br>&amp; Wardrobe Rental",
+          "text": "Please <b>Don't buy anything here</b>, this is just a test for an interview so its a fake website but checkout seems to work :)",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OUR PLANS</a>",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            "H1": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-0",
+          "_params": {
+            "firstType": "green",
+            "secondType": "orange",
+            "thirdType": "favorite",
+            "fourthType": "blue",
+            "fifthType": "hidden",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "STANDARD",
+          "currency1": "$",
+          "price1": "12",
+          "period1": "per month",
+          "list1": "<ul><li><b>2 Garments/month</b></li><li><b>Pick up in store</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"mbrext://smart-cart?cmdsm=_xclick&amp;amount=12&amp;item_name=Standard%20Plan&amp;currency_code=USD&amp;dataShop=smartCart\" class=\"mbr-buttons__btn btn-wrap btn-xs-lg btn btn-success\" data-toolbar=\"-mbrBtnMove\">BUY THIS PLAN</a>",
+          "title2": "SILVER",
+          "currency2": "$",
+          "price2": "15",
+          "period2": "per month",
+          "list2": "<ul><li><b>3 Garments/month</b></li><li><b>Free Delivery</b></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"mbrext://smart-cart?cmdsm=_xclick&amp;amount=15&amp;item_name=Silver%20Plan&amp;currency_code=USD&amp;dataShop=smartCart\" class=\"mbr-buttons__btn btn-wrap btn-xs-lg btn btn-success\" data-toolbar=\"-mbrBtnMove\">BUY THIS PLAN</a>",
+          "title3": "GOLD",
+          "currency3": "$",
+          "price3": "20",
+          "period3": "per month",
+          "list3": "<ul><li><b>5 Garments/month\r</b></li><li><b>Free Delivery</b></li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"mbrext://smart-cart?cmdsm=_xclick&amp;amount=20&amp;item_name=Gold%20Plan&amp;currency_code=USD&amp;dataShop=smartCart\" class=\"mbr-buttons__btn btn-wrap btn-xs-lg btn btn-success\" data-toolbar=\"-mbrBtnMove\">BUY THIS PLAN</a>",
+          "title4": "PLATINUM",
+          "currency4": "$",
+          "price4": "35",
+          "period4": "per month",
+          "list4": "<ul><li><b>7 Garments/month\r</b></li><li><b>Free Delivery</b></li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"mbrext://smart-cart?cmdsm=_cart&amp;amount=35&amp;item_name=Platinum%20Plan&amp;currency_code=USD&amp;dataShop=smartCart\" class=\"mbr-buttons__btn btn-wrap btn-xs-lg btn btn-success\" data-toolbar=\"-mbrBtnMove\">BUY THIS PLAN</a>",
+          "title5": "EXTENDED",
+          "currency5": "$",
+          "price5": "0",
+          "period5": "per month",
+          "list5": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>2 TB</b> Bandwidth</li></ul>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">DEMO LINK</a>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-1",
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT &amp; SUBSCRIBE TO NEWSLETTER<br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
+          "form": {
+            "action": "ymoletm@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          }
+        },
+        {
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x968.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "height": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "linkInNewWindow": false
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: noresponse@rocketShop.com<br><br>",
+          "text3": "<ul class=\"mbr-contacts__list\"><li><b>SOCIAL MEDIA</b></li></ul>"
+        }
+      ]
+    }
+  }
+}
